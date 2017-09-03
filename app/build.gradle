@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.app.baseonandroidonlinemall"
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //Gson
+    //ButterKnife
+    //Glide
+    //RecyclerView
+    //CircleImageView
+    //SpinKit
+    //引入dagger2
+    //java注解
+    //BaseRecyclerViewAdapterHelper
+    //Retrofit 2.2
+    //RxJava
+    // logger
+    //Slider 轮播图
+    //Slider依赖的两个库
+    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support:recyclerview-v7:25.0.0'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.android.support:design:25.0.0'
+    compile 'com.github.ybq:Android-SpinKit:1.1.0'
+    compile 'com.google.dagger:dagger:2.4'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.15'
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
+    compile 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
+    compile 'com.orhanobut:logger:1.15'
+    compile 'com.daimajia.slider:library:1.1.5'
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile 'com.nineoldandroids:library:2.4.0'
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+    apt 'com.google.dagger:dagger-compiler:2.4'
+    provided 'org.glassfish:javax.annotation:10.0-b28'
+}

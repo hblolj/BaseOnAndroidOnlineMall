@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 底部导航栏高度 -->
+    <dimen name="main_bottom">50dp</dimen>
+
+    <!-- 字体大小-->
+    <dimen name="small_text_size">11sp</dimen>
+    <dimen name="small_text_size2">10sp</dimen>
+    <dimen name="micro_text_size">12sp</dimen>
+    <dimen name="medium_text_size">13dp</dimen>
+    <dimen name="large_text_size">16sp</dimen>
+    <dimen name="xlarge_text_size">18sp</dimen>
+    <dimen name="icon_text_size2">18sp</dimen>
+    <dimen name="icon_text_size">25sp</dimen>
+
+    <!-- TabLayout -->
+    <dimen name="tab_layout_height">38dp</dimen>
+    <dimen name="topbar_height">45dp</dimen>
+
+    <!-- hot other list-->
+    <dimen name="hot_slider_height">200dp</dimen>
+    <dimen name="other_slider_height">200dp</dimen>
+
+    <!-- 支付字体大小 -->
+    <dimen name="s10">10sp</dimen>
+    <dimen name="s12">12sp</dimen>
+    <dimen name="s14">14sp</dimen>
+    <dimen name="s15">15sp</dimen>
+    <dimen name="s16">16dp</dimen>
+    <dimen name="s18">18sp</dimen>
+    <dimen name="s20">20sp</dimen>
+    <dimen name="s24">24sp</dimen>
+    <dimen name="s26">26sp</dimen>
+</resources>

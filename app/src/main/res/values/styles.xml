@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="BaseTheme">
+        <!--这是文本的主要颜色，用于工具栏标题-->
+        <!--<item name="android:textColorPrimary">@color/toolbar_text</item>-->
+        <!--这是次文本的主要颜色，用于工具栏次标题-->
+        <!--<item name="android:textColorSecondary">@color/toolbar_text</item>-->
+        <!--分割线颜色-->
+        <!--<item name="android:divider">@color/divider_line</item>-->
+        <!--<item name="android:windowBackground">@color/window_background</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowAnimationStyle">@style/slide_right_entry</item>-->
+    </style>
+
+    <style name="radio_button_style">
+        <item name="android:width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/radio_button_text_selector</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:drawablePadding">1dp</item>
+    </style>
+
+    <!-- 登录页面 账号、密码 TextView样式-->
+    <style name="TextAppear.Theme.Size16_j" parent="android:TextAppearance.Theme">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/c_j</item>
+    </style>
+    <!-- 登录页面 账号、密码 EditText样式-->
+    <style name="TextAppear.Theme.Size15_se_333333" parent="android:TextAppearance.Theme">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/c_333333</item>
+    </style>
+    <!-- 登录页面 登录按钮文字样式 -->
+    <style name="TextAppear.Theme.Size18_c_ffffff" parent="android:TextAppearance.Theme">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/c_ffffff</item>
+    </style>
+    <!-- 购物车页面下方全选CheckBox的样式 -->
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/checkbox_style</item>
+    </style>
+
+</resources>

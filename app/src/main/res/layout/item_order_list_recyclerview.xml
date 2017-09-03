@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/bg_Main4"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/tv_order_id_label"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="订单编号："
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/medium_text_size" />
+
+        <TextView
+            android:id="@+id/tv_order_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/tv_order_id_label"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/medium_text_size"
+            tools:text="1233987587" />
+
+        <TextView
+            android:id="@+id/tv_order_status"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="未支付"
+            android:textColor="@color/bg_Main"
+            android:textSize="@dimen/medium_text_size" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/tv_shipping_rates"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/small_text_size"
+            tools:text="运费：￥0.00" />
+
+        <TextView
+            android:id="@+id/tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/tv_shipping_rates"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/small_text_size"
+            tools:text="总价：￥0.00" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+        <!-- 查看详情 -->
+        <TextView
+            android:id="@+id/ll_ckxq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/layoutwithstorkemainround"
+            android:text="查看详情"
+            android:textColor="@color/bg_Main"
+            android:padding="5dp"
+            android:textSize="12sp"
+            android:visibility="visible"/>
+
+        <!-- 支付相关 -->
+        <LinearLayout
+            android:id="@+id/ll_zhifu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_qxdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取消订单"
+                android:background="@drawable/layoutwithstorkemainround"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/bg_Main"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_toLeftOf="@+id/tv_qzf"
+                />
+            <!-- 去支付 -->
+            <TextView
+                android:id="@+id/tv_qzf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/tv_ckwl"
+                android:background="@drawable/layoutwithstorkemainround"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:text="去支付"
+                android:textColor="@color/bg_Main"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <!-- 确认收获 -->
+        <TextView
+            android:id="@+id/tv_qrsh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layoutwithstorkemainround"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="确认收货"
+            android:textColor="@color/bg_Main"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+        <!-- 评价商品 -->
+        <TextView
+            android:id="@+id/tv_pjsp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layoutwithstorkemainround"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="评价商品"
+            android:textColor="@color/bg_Main"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

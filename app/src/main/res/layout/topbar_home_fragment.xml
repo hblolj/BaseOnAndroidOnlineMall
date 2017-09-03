@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainTop"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/c_a"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <!--android:layout_alignParentTop="true"-->
+
+    <!-- 需要修改为当前用户头像 CircleImageView -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/default_person_picture" />
+
+    <!-- background为一个矩形圆角框 -->
+    <LinearLayout
+        android:id="@+id/mainSearchBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="7.5dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundbg_search"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp">
+
+        <!-- 需要换成一个放大镜的ImageView -->
+        <ImageView
+            android:src="@drawable/glass"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/index_search_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:hint="@string/main_search_hint"
+            android:textColor="@color/white"
+            android:textSize="@dimen/medium_text_size" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">BaseOnAndroidOnlineMall</string>
+    <string name="main_home">首页</string>
+    <string name="main_category">分类</string>
+    <string name="main_cart">购物车</string>
+    <string name="main_user">我的</string>
+    <string name="main_search_hint">极享全球购</string>
+
+    <!-- 用户信息 -->
+    <string name="main_user_head_username">用户名</string>
+    <string name="main_user_head_score1">【积分：</string>
+    <string name="main_user_head_score2">】</string>
+    <string name="main_user_head_up_home">上家：</string>
+    <string name="main_user_head_team">团队：</string>
+    <string name="main_user_head_own_team">创客团队：</string>
+    <string name="main_user_head_login">未登录，点击登录</string>
+    <string name="main_user_head_achievement_z">直推业绩</string>
+    <string name="main_user_head_achievement_f">分推业绩</string>
+    <!-- public -->
+    <string name="main_user_zero1">0</string>
+    <string name="main_user_zero2">0.00</string>
+    <string name="main_user_coin">¥</string>
+    <string name="main_user_logout">退出登录</string>
+    <!-- 财务信息 -->
+    <string name="main_user_finance_cash_able">可提金额</string>
+    <string name="main_user_finance_ele_coin">象币</string>
+    <string name="main_user_finance_cash_ing">待提金额</string>
+    <!-- 功能列表 -->
+    <!-- 极享服务 -->
+    <string name="main_user_fun_own">极享服务</string>
+    <string name="main_user_fun_other">第三方服务</string>
+    <string name="main_user_fun_shezhi">设置</string>
+    <string name="main_user_fun_wodedingdan">我的订单</string>
+    <string name="main_user_fun_zhanghuanquan">账户安全</string>
+    <string name="main_user_fun_dizhiguanli">地址管理</string>
+    <string name="main_user_fun_tixian">提现</string>
+    <string name="main_user_fun_zhanghuguanli">账户管理</string>
+    <string name="main_user_fun_jiamengerweima">加盟二维码</string>
+    <string name="main_user_fun_shouquanzhengshu">授权证书</string>
+    <string name="main_user_fun_sucai">素材</string>
+    <string name="main_user_fun_dianpuerweima">店铺二维码</string>
+    <string name="main_user_fun_fenxiangchuangke">分享创客</string>
+    <string name="main_user_fun_baishi">拜师</string>
+    <string name="main_user_fun_texun">微课堂</string>
+    <!-- 第三方服务 -->
+    <string name="main_user_fun_chexian">车险</string>
+    <string name="main_user_fun_xinyongkabanli">信用卡办理</string>
+    <string name="main_user_fun_licai">理财</string>
+    <string name="main_user_fun_fangkeliuliang">访客流量</string>
+    <string name="main_user_fun_shuifei">水费</string>
+    <string name="main_user_fun_dianfei">电费</string>
+    <string name="main_user_fun_meiqi">煤气</string>
+    <string name="main_user_fun_shoujihuafei">手机话费</string>
+
+    <string name="frg_user_safe_safedo">安全操作：</string>
+    <string name="frg_user_safe_update_pwd">修改登录密码</string>
+    <string name="frg_user_safe_findback_pwd">找回登录密码</string>
+    <string name="frg_user_safe_zhu">注：</string>
+    <string name="frg_user_safe_zhuyi">当您通过找回密码重置登录密码时，您的登录密码和支付密码将会同时重置为新密码。</string>
+
+    <string name="frg_user_account_tishi">民生直销银行助力安全提现升级！现在只需填写民生直销银行账号即可完成绑定！</string>
+
+    <string name="frg_withdraw_help_txt1">单笔提现金额不低于300元</string>
+    <string name="frg_withdraw_help_txt2">(低于300元，每月10号、20号可提现)</string>
+    <string name="frg_withdraw_help_txt3">申请提现后，将在3个工作日内到账。</string>
+
+    <string name="frg_user_share_fxchuangke">分享至微信，朋友圈等渠道，邀请好友加入创客联盟吧</string>
+
+
+    <string name="iconedit">&#xb06a;</string>
+    <string name="iconuser">&#xa05b;</string>
+</resources>
