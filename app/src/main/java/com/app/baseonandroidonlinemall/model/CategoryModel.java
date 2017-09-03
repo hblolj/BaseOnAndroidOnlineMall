@@ -22,11 +22,11 @@ public class CategoryModel {
 
     public List<CategoryData> getCategoryData(){
         initDetailItem();
-        mDatas.add(new CategoryData("http://192.168.191.1:8080/biyesheji/assets/category/baby.jpg", muyin));
-        mDatas.add(new CategoryData("http://192.168.191.1:8080/biyesheji/assets/category/baojian.jpg", baojian));
-        mDatas.add(new CategoryData("http://192.168.191.1:8080/biyesheji/assets/category/meirong.jpg", meirong));
-        mDatas.add(new CategoryData("http://192.168.191.1:8080/biyesheji/assets/category/qingshes.jpg", qingshe));
-        mDatas.add(new CategoryData("http://192.168.191.1:8080/biyesheji/assets/category/shipin.jpg", shipin));
+        mDatas.add(new CategoryData("http://116.196.109.166/biyesheji/assets/category/baby.jpg", muyin));
+        mDatas.add(new CategoryData("http://116.196.109.166/biyesheji/assets/category/baojian.jpg", baojian));
+        mDatas.add(new CategoryData("http://116.196.109.166/biyesheji/assets/category/meirong.jpg", meirong));
+        mDatas.add(new CategoryData("http://116.196.109.166/biyesheji/assets/category/qingshes.jpg", qingshe));
+        mDatas.add(new CategoryData("http://116.196.109.166/biyesheji/assets/category/shipin.jpg", shipin));
         return mDatas;
     }
 

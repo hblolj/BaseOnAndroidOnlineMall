@@ -43,8 +43,12 @@ public class RetrofitService {
 
     //服务端的地址前缀
     private static final String HOME_HOST = "http://114.55.55.152/api/";
-    private static final String HOME2_HOST = "http://192.168.191.1:8080/biyesheji/";
-    public static final String HOME3_HOST = "http://192.168.191.1:8080/biyesheji";
+
+//    private static final String HOME2_HOST = "http://192.168.191.1:8080/biyesheji/";
+//    public static final String HOME3_HOST = "http://192.168.191.1:8080/biyesheji";
+
+    private static final String HOME2_HOST = "http://116.196.109.166/biyesheji/";
+    public static final String HOME3_HOST = "http://116.196.109.166/biyesheji";
     private static final String WELFARE_HOST = "http://gank.io/";
 
     public static IHomeApi homeApi;
